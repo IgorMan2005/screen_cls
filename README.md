@@ -1,6 +1,6 @@
 # Screen_CLS
 
-<image src="https://igorman2005.github.io/images/screen_cls.jpg" alt="screen_cls">
+<img src="https://igorman2005.github.io/images/screen_cls.jpg" alt="screen_cls">
 
 Python script for clearing screen for any OS's: Windows, MAC, Linux
 
@@ -9,14 +9,20 @@ https://pypi.org/project/screen-cls/
 
 **pip install screen-cls**
 
-## Example:
+## Example1:
 ```
 import screen_cls
 
 screen_cls.cls()
 ```
 
-<image src="https://igorman2005.github.io/images/screen_cls_code.jpg" alt="screen_cls">
+## Example2:
+```
+from screen_cls import *
+
+cls()
+```
+
 
 ### Documentation
 
